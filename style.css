@@ -123,7 +123,41 @@ body{
     margin-top: 1em;
 }
 
-.list__link{
+.lista__link{
     color: var(--branco-principal);
     margin-left: 1em;
 }
+
+.link{
+    text-decoration: none;
+    color: var(--branco-principal);
+}
+
+.rodape__texto{
+    margin: 1em 0;
+    color: var(--cinza-secundário);
+    font-size: 14px;
+}
+
+.rodape{
+    text-align: center;
+    margin: 5em 3em;
+}
+
+.lista__link a:hover{
+    color: var(--botao-azul);
+}
+
+.lista__link a:active{
+    color: var(white);
+}
+
+.container__botao:hover{
+    background-color: red;
+    color: white;
+}
+
+.container__botao:active{
+    background-color: red;
+}
+
